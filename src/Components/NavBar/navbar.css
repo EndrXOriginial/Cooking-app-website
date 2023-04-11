@@ -1,11 +1,29 @@
 .navbar {
-    background-color: green;
+    background-color: var(--secondary-color);
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+div.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul {
     display: flex;
+    margin: 0;
 }
 
-a {
-    padding: 10px 20px;
+.nav-link {
+    padding: 15px 15px;
+    display: block;
+
+    transition: all .3s ease-out;
+}
+
+.nav-link:hover {
+    background-color: var(--hover-color-green);
+    color: var(--tercary-color);
 }

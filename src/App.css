@@ -79,6 +79,7 @@ h3,
 p,
 a {
   font-family: var(--primary-ff);
+  color: var(--primary-color);
 }
 
 h2 {
@@ -98,25 +99,6 @@ a {
 }
 
 .wrapper {
-  width: 100%;
-  margin: 0 0;
-}
-
-@media screen and (min-width: var(--breakpoint-xs)) {
-  .wrapper {
-    width: 660px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: var(--breakpoint-sm)) {
-  .wrapper {
-    width: 1090px;
-  }
-}
-
-@media screen and (min-width: var(--breakpoint-lg)) {
-  .wrapper {
-    width: 1140px;
-  }
+  width: 90vw;
+  margin: 0 auto;
 }
